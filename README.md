@@ -2,10 +2,10 @@
 
 # Project Overview
 
-### What is this project?
+### Aim of the project:
 We aim to build **Pixhawk Based Delivery Drone** that can carry a package from one place to another.
 
-### The Drone's Gripper:
+### Drone's Gripper:
 The drone will use a smart robotic gripper inspired by a **fish's fin**. When it grabs a package, it bends perfectly around it so it never drops it.
 
 ### Flight Control:
