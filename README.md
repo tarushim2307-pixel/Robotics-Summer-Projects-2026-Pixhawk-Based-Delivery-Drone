@@ -28,6 +28,10 @@ The softwares required:
 * QGroundControl
 * PX4 firmware
 
+We follow Qgroundcontrol installation for installation of ground station.
+
+Then we installed the PX4 firmware in pixhawk from firmware install section of Qgroundcontrol.
+
 # Simulation
 
 The softwares required:
