@@ -32,6 +32,38 @@ We follow Qgroundcontrol installation for installation of ground station.
 
 Then we installed the PX4 firmware in pixhawk from firmware install section of Qgroundcontrol.
 
+### Vehicle Configuration
+
+We used almost all standard default PX4 parameters ensuring full operational awareness, robust failsafes, and GPS guided autonomous flight required for delivery operations.
+
+### Flight Mode & Radio Configuration
+
+In the Radio Configuration, we calibrated the Radio Controller as per the instructions given.
+
+And in the Flight Modes Configuration,we mapped the modes to a physical 3 position switch on the RC transmitter assigned to **Channel 5** in the following manner:
+* **Switch Position UP-** Stabilized Mode
+* **Switch Position MIDDLE-** Altitude Hold Mode
+* **Switch Position DOWN-** Land Mode
+
+### Sensors Configuration
+
+In the Sensors Configuration, we performe the following calibrations:
+* **Compass**
+* **Accelerometer**
+* **Gyroscope**
+* **Level Horizon**
+* **Orientations**
+
+### Power Settings
+
+In the Power Tab, we connect to the USB Cable, and perform the ESC Caliberation by connecting and disconnecting the battery as per the instructions given.
+
+### Actuators Settings
+
+In the Actuators Settings, we connect to the USB Cable, and performed the following:
+* Assigning up the motors with numbers along with their respective directions
+* Assigning **RC AUX 1** to the respective channel for proper functioning of the attached Gripper
+
 # Simulation
 
 The softwares required:
